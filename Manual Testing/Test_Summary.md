@@ -16,24 +16,19 @@ To validate core e-commerce functionalities such as Registration, Login, Search,
 Included:
 
 Signup & Login
-
 Search
-
 Product listing & detail
-
 Add to cart & cart updates
-
 Checkout & Order confirmation
-
 Cross-browser (Chrome, Firefox)
 
 Excluded:
 
 Payment integration
-
 Security & performance tests
 
 3. Test Execution Summary
+
 Execution Item	Count
 Total Test Cases	20
 Passed	10
@@ -53,11 +48,8 @@ Total Bugs: 10
 5. Major Defects Found
 
 Checkout accepts empty mandatory fields (Critical)
-
 Cart total does not update after quantity change (Critical)
-
 Order ID missing on confirmation page (Major)
-
 Login accepts invalid email formats (Major)
 
 6. Overall Product Quality
@@ -71,11 +63,8 @@ User Impact: High (due to cart & checkout issues)
 7. Recommendations
 
 Fix critical cart and checkout validation issues immediately.
-
 Add proper input validation for email and address fields.
-
 Improve search relevancy.
-
 Test responsiveness and mobile layout fixes.
 
 8. Conclusion
